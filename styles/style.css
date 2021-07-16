@@ -1,0 +1,58 @@
+html {
+    font-size: 10px;
+    font-family: 'Josefin Sans','Kanit', sans-serif;
+        background-color: rgb(195, 0, 255);
+}
+
+body{
+    background-color: rgb(255, 255, 56);
+    margin: 0 auto;
+    width: 600px;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black
+
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0 auto;
+    padding: 20px 0;
+    color: rgb(195, 0, 255);
+    text-shadow: 3px 3px 1px black;
+    max-width: 300px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.kku-header {
+    /* max-width: 300px;
+    margin: 0 auto; */
+}
+
+.main-container {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    height: 50%;
+
+    border: 1em solid black;
+    border-radius: 7px;
+     */
+}
+
+.info-container{
+    /* width: 100%;
+    border: 1px solid black;
+    border-radius: 7px; */
+}
