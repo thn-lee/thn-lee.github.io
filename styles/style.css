@@ -34,11 +34,11 @@ img {
     margin-bottom: 0;
 }
 
-.kku-text {
+#heading {
     color: blue;
 }
 
-#popular {
+.popular {
     border: 4px dotted red;
 }
 
