@@ -30,7 +30,20 @@ p, li {
 
 img {
     display: block;
+    margin: 2% auto;
+    margin-bottom: 0;
+}
+.kku-caption {
+    text-align: center;
     margin: 0 auto;
+}
+
+.kku-text {
+    color: blue;
+}
+
+#popular {
+    border: 4px dotted red;
 }
 
 .kku-header {
