@@ -33,9 +33,9 @@ img {
     margin: 2% auto;
     margin-bottom: 0;
 }
-.kku-caption {
+
+figcaption {
     text-align: center;
-    margin: 0 auto;
 }
 
 .kku-text {
