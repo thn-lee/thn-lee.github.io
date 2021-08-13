@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/title-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&display=swap"
+      rel="stylesheet"
+    />
+    <title>Disconnected-Lee</title>
+    <script
+      src="https://kit.fontawesome.com/900fd10968.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Welcome To Disconnected-Lee Hideout !!</h1>
+      <h4>
+        ps. About the tag h1, h2 ... hn, i used to edit the font-size in CSS
+        more than using these tag. Sorry if the code feels weird.
+      </h4>
+      <img src="images/1.jpg" alt="" width="20.6%" />
+      <p class="header_text">
+        Thanawat Leelawatcharamas<br />A Rookie-Web Developer
+      </p>
+    </header>
+    <nav id="navbar">
+      <a class="nav_em" href="#header">
+        <img class="home_icon" src="images/title-icon.png" alt="" />
+      </a>
+      <a href="#about" class="about_nav nav_em">About</a>
+      <a href="#skills" class="skill_nav nav_em">Skills</a>
+      <a href="#workex" class="workex_nav nav_em">Work Experience</a>
+      <a href="#contact" class="contact_nav nav_em">Contact</a>
+    </nav>
+    <main id="about">
+      <div class="default_container">
+        <p class="profile_header">About me</p>
+        <p class="profile_text" id="skills">
+          A computer engineering student who fascinated in software and data
+          science. Always ready to learn new things about programming.
+        </p>
+        <p class="profile_header">Skills</p>
+        <ul>
+          <li>SQL, Ruby, Ruby on Rails</li>
+          <li>Python, Java</li>
+          <li>
+            HTML, CSS, Angular (*long-forgotten but can be recovered),
+            JavaScript
+          </li>
+          <li>Photoshop, Data-science, Machine Learning</li>
+        </ul>
+        <p class="profile_header" id="workex">Work Experience</p>
+        <ul>
+          <li class="profile_sub_header">University Project</li>
+          <p class="ul profile_text">
+            Bachelor of Engineering, Computer Engineering, Faculty of
+            Engineering, Khonkaen University | 2018 - Present
+          </p>
+          <ul>
+            <li class="profile_text">
+              Python Project (Computer Programming) - learning basics syntax of
+              python to develop an app for restaurant.
+            </li>
+            <li class="profile_text">
+              Java Project (Advanced Computer Programming) learning basics
+              syntax of java to develop a video game.
+            </li>
+          </ul>
+          <li class="profile_sub_header">Web Developer</li>
+          <p class="ul profile_text">Zercle Technology Co., Ltd.</p>
+          <ul>
+            <li class="profile_text">
+              Mostly learning about basic web devolopment (Fullstacks).
+            </li>
+            <li class="profile_text">
+              Develop a web-blog using Angular as project
+            </li>
+          </ul>
+          <p class="ul profile_text">+Riseplus Technology Co., LTD.</p>
+          <ul>
+            <li class="profile_text">
+              At start, Learning Ruby and Ruby on Rails.
+            </li>
+            <li class="profile_text">
+              Develop an online shop website using Ruby on Rails as back-end
+              framework.
+            </li>
+          </ul>
+        </ul>
+        <p class="profile_header">Demo Form</p>
+        <form class="form_container" action="">
+          <label for="demo">Enter some random text here. <br /></label>
+          <input
+            class="input_text"
+            type="text"
+            name=""
+            id="demo"
+            placeholder="Type something here.."
+          />
+          <input class="input_btn" type="button" value="Submit" />
+        </form>
+        <p class="profile_header">Demo Table</p>
+        <table>
+          <tr>
+            <th>Day</th>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>WednesDay</th>
+            <th>Thursday</th>
+            <th>Friday</th>
+            <th>Saturday</th>
+            <th>Sunday</th>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <p class="profile_header" id="contact">Contact</p>
+        <h6></h6>
+        <a href="https://www.facebook.com/thanawat.leewatcharamas.9/">
+          <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://github.com/disconnected-lee">
+          <i class="fab fa-github-square"></i>
+        </a>
+      </div>
+    </main>
+  </body>
+
+  <script>
+    window.onscroll = function () {
+      stickyNavbar();
+    };
+    let navbar = document.getElementById("navbar");
+    let sticky = navbar.offsetTop;
+    function stickyNavbar() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+        navbar.classList.add("nav_bar nav_em");
+      }
+    }
+  </script>
+</html>
