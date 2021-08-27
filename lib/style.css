@@ -1,0 +1,19 @@
+h3 {
+    text-align: center;
+}
+@media screen and (min-width: 768px) {
+    body {
+        padding: 1%;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 320px) {
+    p {
+        font-size: 18px;
+    }
+    li {
+        font-size: 14px;
+    }
+}
