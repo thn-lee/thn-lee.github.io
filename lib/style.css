@@ -1,19 +1,13 @@
-h3 {
-    text-align: center;
+.box {
+    width: 25%;
+    height: 100px;
+    background-color: rgb(50, 50, 50);
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-@media screen and (min-width: 768px) {
-    body {
-        padding: 1%;
-    }
-    p {
-        font-size: 25px;
-    }
-}
-@media screen and (max-width: 320px) {
-    p {
-        font-size: 18px;
-    }
-    li {
-        font-size: 14px;
-    }
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
